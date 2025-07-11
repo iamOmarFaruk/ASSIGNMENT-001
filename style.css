@@ -16,6 +16,9 @@ body{
 /* <weight>: Use a value from 100 to 900
    <uniquifier>: Use a unique and descriptive class name */
 
+
+
+
 .raleway-light {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
@@ -62,6 +65,12 @@ body{
   font-weight: 700;
   font-style: normal;
 }
+
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 .inter-extrabold {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -75,7 +84,9 @@ body{
 
 
 
-
+.purple-text {
+  color: #4E47FF;
+}
 
 .container {
   max-width: 1140px;
@@ -84,7 +95,11 @@ body{
   width: 100%;
 }
 .space{
-padding: 120px 0;
+padding:55px 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
@@ -142,7 +157,6 @@ padding: 120px 0;
 
 .logo{
   font-size:35px;
-  color: #6366f1;
 }
 
 /* Hero content styles */
@@ -202,4 +216,91 @@ padding: 120px 0;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+}
+
+
+/* productive user section styles */
+
+.productive-user-content{
+background-color: rgba(78, 71, 255, 0.1);
+border-radius:10px;
+padding: 30px;
+}
+
+
+.productive-section-title {
+  font-size:38px;
+  color: rgba(37, 36, 50, 1);
+  margin-bottom:30px;
+}
+
+
+.productive-numbers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.productive-number{
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.productive-description{
+  font-size:20px;
+  color: rgba(37, 36, 50, 0.48);
+}
+
+
+/* review section styles */
+.review-item-star {
+  margin-bottom: 15px;
+}
+
+.review-item h4{
+font-size:24px;
+color: #1E1E1E;
+margin-bottom: 15px;
+}
+
+
+.review-content {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.review-item p{
+ color: #757575;
+ font-size: 16px;
+}
+.review-item {
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  border: 1px solid #F2EDED;
+  padding: 30px;
+}
+
+
+.review-user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.review-user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.review-user-info h5{
+  font-size: 16px;
+  color: #757575;
+}
+
+.review-user-info p{
+  color: #B3B3B3;
+  font-size: 16px;
 }
