@@ -156,7 +156,7 @@ padding:55px 0;
 }
 
 .logo{
-  font-size:35px;
+  font-size:34px;
 }
 
 /* Hero content styles */
@@ -215,16 +215,16 @@ padding:55px 0;
 .action-image {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius:48px;
 }
 
 
 /* productive user section styles */
 
-.productive-user-content{
-background-color: rgba(78, 71, 255, 0.1);
-border-radius:10px;
-padding: 30px;
+.productive-user-content {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 30px;
 }
 
 
@@ -365,10 +365,15 @@ font-size: 97px;
 
 input[type="email"], input[type="text"], textarea {
   width: 100%;
-  padding:20px;
+  padding:15px;
   border-radius: 10px;
   border: 1px solid #D6DDED;
   font-size:20px;
+}
+
+.newsletter-btn {
+  display: block;
+  width: 100%;
 }
 
 /* footer styles */
@@ -406,4 +411,9 @@ input[type="email"], input[type="text"], textarea {
   .footer-nav-item a {
     text-decoration: none;
     color: #8987A1;
+  }
+
+.footer-nav-item a:hover {
+    color: #4E47FF;
+    text-decoration: underline;
   }
