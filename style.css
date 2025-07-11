@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+/* shared styles */
+/* <weight>: Use a value from 100 to 900
+   <uniquifier>: Use a unique and descriptive class name */
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-default {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-extrabold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.raleway-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* inter font */
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.inter-default {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.inter-extrabold {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius:10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  background-color: #4E47FF;
+  color: white;
+  padding: 12px 36px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #5855eb;
+}
+
+/* banner styles */
+.banner {
+  background-image: url('./Assets/Hero-bg.png');
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 54px 0;
+}
+
+.logo{
+  font-size:35px;
+  color: #6366f1;
+}
+
+/* Hero content styles */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 158px 10px;
+  max-width: 905px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size:65px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  max-width: 800px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.stay-focused-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+}
