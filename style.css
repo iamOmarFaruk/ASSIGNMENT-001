@@ -309,7 +309,7 @@ margin-bottom: 15px;
 .cta-content{
   background-color: #fff;
   border-radius: 14px;
-  padding: 40px;
+  padding: 50px;
 }
 
 .cta-section-title{
@@ -332,4 +332,42 @@ margin-bottom: 15px;
   border-radius: 48px;
 }
 
+
+/* newsletter */
+.newsletter-content{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter-left{
+  width: 50%;
+}
+
+.newsletter-right{
+  width: 40%;
+}
+.newsletter-title{
+font-size: 97px;
+}
+
+.newsletter-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.newsletter-input-group label {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="email"], input[type="text"], textarea {
+  width: 100%;
+  padding:20px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  font-size:20px;
+}
 
